@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      #navbar {
+        background-color: rgb(200, 194, 194);
+        height: 50px;
+        padding: 2px 20px;
+        margin-bottom: -22px;
+      }
+      .href {
+        padding: 10px 10px;
+        font-size: larger;
+        float: right;
+        margin: 5px 20px;
+        text-decoration: none;
+        color: rgb(23, 23, 202);
+      }
+      #navbar a:hover {
+        color: white;
+        background-color: black;
+        padding: 5px;
+      }
+      #banner {
+        background-color: rgb(33, 151, 198);
+        height: 177px;
+        margin-bottom: 5px;
+      }
+      .ban {
+        color: whitesmoke;
+        text-align: center;
+        padding: 55px;
+        font-weight: bold;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .l1 {
+        height: 366px;
+        background-color:rgb(255, 255, 136);
+        margin-left: 107px;
+        float: left;
+        width: 41%;
+        margin-right: 5px;
+      }
+      .l2 {
+        background-color: violet;
+        height: 300px;
+        width: 200px;
+        position: absolute;
+        top: 278px;
+        left: 28px;
+      }
+      .r1 {
+        background-color: rgb(219, 113, 32);
+        height: 200px;
+        float: left;
+        width: 40%;
+      }
+      .r2 {
+        background-color: greenyellow;
+        height: 161px;
+        float: left;
+        width: 40%;
+        margin-top:5px;
+      }
+      .btn{
+        
+        opacity: 0.8;
+        position: absolute;
+        top:389px;
+        right:710px;
+        color: rgb(219, 113, 32);
+    }
+    .container{
+        background-color: rgb(10, 154, 154);
+        height:80px;
+        position: relative;
+        bottom:-374px;
+        
+    }
+    .hr{
+     padding: 0px 3px;
+    font-size: larger;
+    margin: 0px -80px;
+    margin-right: -96px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: -78px;
+      }
+     .container a{
+        position: relative;
+        left:-430px;
+        bottom:-25px;
+     }
+    .txt1,.txt2,.txt3{
+        background-color: white;
+    opacity: 0.3;
+    position: relative;
+    top: 20px;
+    right: -21px;
+    width:260px;
+    padding:4px;
+    margin:8px;
+    }
+    .srcleft{
+        width:40px;
+        height:40px;
+        position:absolute;
+        top:100px;
+        left:50px;
+    }
+    .srcright{
+        width:40px;
+        height:40px;
+        position:absolute;
+        right:50px;
+        top:100px;
+       
+    }
+    </style>
+  </head>
+  <body>
+    <div class="up">
+      <div id="navbar">
+        <a href="#contactus" class="href" >Contact Us</a>
+        <a href="#profile" class="href" id="prof">Profile</a>
+        <a href="#service" class="href">Service</a>
+        <a href="#home" class="href">Home</a>
+      </div>
+      <img src="larrow.png" alt="unable to load" class="srcleft">
+      <img src="rarrow.png" alt="unable to load" class="srcright">
+      <div id="banner">
+        <h1 class="ban">BANNER</h1>
+      </div>
+    
+    </div>
+    <div class="mid">
+      <div class="l1"></div>
+      <div class="l2"></div>
+      <div class="r1">
+        <input type="text" class="txt1"></input><br>
+        <input type="text" class="txt2"></input><br>
+       <select class="txt3">
+        <option> </option>
+        <option></option>
+       </select>
+       <input type="submit" class="btn"></input>
+      </div>
+      <div class="r2"></div>
+    </div>
+   <div class="container">
+    <a href="#contactus" class="hr">Contact Us </a>
+    <a href="#profile" class="hr">Profile |</a>
+    <a href="#services" class="hr">Services |</a>
+    <a href="#home" class="hr">Home | </a>
+   </div>
+  </body>
+</html>
